@@ -3,20 +3,22 @@ def input_series():
 
     while True:
         input_user = input("""
-        Welcome please enter your number 
-            atntion:
-            # You must enter at least 3 numbers.
-            # All numbers must be positive (> 0).
-            # Separate the numbers using spaces.
+Welcome please enter your number 
+atntion:
+        # You must enter at least 3 numbers.
+        # All numbers must be positive (> 0).
+        # Separate the numbers using spaces.
+        :
         """)
 
         user_list = input_user.split(" ")
 
         try:
            for n in user_list:
-               series.append(float(n))
+               n = float(n)
+               series.append(n)
 
-               if n < 0:
+               if n <= -1:
                    print("error try again only postive number")
                    continue
         except:
@@ -33,4 +35,18 @@ def input_series():
 
 
 
-print(input_series())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
