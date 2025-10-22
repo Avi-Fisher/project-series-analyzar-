@@ -4,7 +4,7 @@ def input_series():
         series = []
 
         input_user = input("""
-Welcome please enter your number 
+Welcome please enter your numbers 
 atntion:
         # You must enter at least 3 numbers.
         # All numbers must be positive (> 0).
@@ -84,6 +84,13 @@ def menu():
                 break
 
         print("Error please pike a number")
+
+
+
+
+
+
+
 
 
 
